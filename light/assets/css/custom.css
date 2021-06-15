@@ -1,9 +1,4 @@
-@media (min-width: 768px){
-    .custome-card img{
-        width: 20%;
-        margin-right: 20px;
-    }
-}
+
 a{text-decoration: none;}
 .card-content{
     background-color:#fffbdf
@@ -38,4 +33,15 @@ a{text-decoration: none;}
 }
 .card-footer{
     background-color:#fff;
+}
+@media (min-width: 768px){
+    .custome-card img{
+        width: 20%;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 1000px){
+    .row-basis{
+        display: block !important;
+    }
 }
