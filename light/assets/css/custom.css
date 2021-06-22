@@ -8,7 +8,12 @@ a{text-decoration: none;}
 }
 .price{
     font-size: 23px;
-    font-weight: bold;
+    /* font-weight: bold; */
+}
+.small_detail{
+    padding: 5px;
+    background:#e8e6df;
+    border-radius: 5px;
 }
 .small {
     font-size: 13px;
