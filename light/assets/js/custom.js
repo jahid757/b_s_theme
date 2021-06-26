@@ -13,3 +13,4 @@ function myFunction(id) {
       moreText.style.display = "inline";
     }
   }
+
