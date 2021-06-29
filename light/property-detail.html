@@ -1313,10 +1313,13 @@
                 <div  id="navbar" class="scroll_spy">
                   <ul class="nav nav-pills">
                     <li class="nav-item">
-                      <a class="nav-link" href="#property_detail">First</a>
+                      <a class="nav-link" href="#property_detail">Property Details</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                      <a class="nav-link" href="#location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#similar_property">Similar Property</a>
                     </li>
                   </ul>
                 </div>
@@ -1438,45 +1441,16 @@
                     <p class="my-3 text-muted">It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking
                       at its layout. The point of using Lorem Ipsum is that it
+                      has a more-or-less normal distribution of letters readable content of a page when looking
+                      at its layout. The point of using Lorem Ipsum is that it
                       has a more-or-less normal distribution of letters<span id="dots3">...</span><span id="more3">'Content here, content here', making it
                         look like readable English. Many desktop publishing
                         packages and web page editors now use Lorem Ipsum as their
                         default model text, and a search for 'lorem ipsum' will
                         uncover many web sites still in their infancy.</span>
                       <button class="read_more_btn" onclick="myFunction(3)" id="myBtn3">Read more</button></p>
-
-                    <small class="text-muted"
-                      ><i class="zmdi zmdi-pin mr-2"></i>245 E 20th St, New
-                      York, NY 201609</small
-                    >
-                    <div
-                      class="
-                        d-flex
-                        flex-wrap
-                        justify-content-start
-                        my-3
-                        p-3
-                        bg-light
-                        mb-5
-                      "
-                    >
-                      <a href="#" class="w100" title="Square Feet"
-                        ><i class="zmdi zmdi-view-dashboard mr-2"></i
-                        ><span>280</span></a
-                      >
-                      <a href="#" class="w100" title="Bedroom"
-                        ><i class="zmdi zmdi-hotel mr-2"></i><span>4</span></a
-                      >
-                      <a href="#" class="w100" title="Parking space"
-                        ><i class="zmdi zmdi-car-taxi mr-2"></i
-                        ><span>2</span></a
-                      >
-                      <a href="#" class="w100" title="Garages"
-                        ><i class="zmdi zmdi-home mr-2"></i><span> 24H</span></a
-                      >
-                    </div>
                   </div>
-                  <div id="location" class="card">
+                  <div id="location" class="card"  data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
                     <div class="header">
                       <h2>
                         <strong>Location</strong>
@@ -1527,10 +1501,11 @@
                     <p class="mb-0"><small><small>Builder</small></small></p>
                   </div>
                 </div>
-                    <div class="btn_wrap">
-                        <button>Contact Builder</button>
-                        <button>get phone no</button>
-                    </div>
+                <div class="btn_wrap">
+                  <a href="tel:+910000000" class="btn btn-success"><i class="fas fa-phone"></i></a>
+                  <a href="mailto:example@gmail.com" class="btn btn-success"><i class="fas fa-envelope"></i></a>
+                  <a href="https://wa.me/+91000000000" class="btn btn-success"><i class= "fa fa-whatsapp"></i></i></a>
+                </div>
               </div>
             </div>
 
@@ -1600,6 +1575,68 @@
                 </button>
               </div>
             </div>
+          </div>
+        </div>
+        </div>
+
+        <div id="similar_property" class="gap" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>
+        <div class="body">
+        <div class="similar_property">
+          <h2 class="border-bottom pb-2">Properties in similar projects</h2>
+          <div class="row">
+            
+            <div class="col-md-3 col-sm-6">
+              <div class="card border">
+                <img src="../assets/images/image4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">2 BHK Apartment <span>1242 sqft</span></h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center my-1">
+                    <a href="#" class="btn btn-primary">Contact Owner</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+              <div class="card border">
+                <img src="../assets/images/image4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">2 BHK Apartment <span>1242 sqft</span></h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center my-1">
+                    <a href="#" class="btn btn-primary">Contact Owner</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+              <div class="card border">
+                <img src="../assets/images/image4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">2 BHK Apartment <span>1242 sqft</span></h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center my-1">
+                    <a href="#" class="btn btn-primary">Contact Owner</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+              <div class="card border">
+                <img src="../assets/images/image4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">2 BHK Apartment <span>1242 sqft</span></h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="text-center my-1">
+                    <a href="#" class="btn btn-primary">Contact Owner</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

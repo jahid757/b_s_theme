@@ -66,9 +66,9 @@ a{text-decoration: none;}
     color: #007bff;
     font-weight: 500;
 }
-.read_more_btn::after{
+/* .read_more_btn::after{
     content: "...";
-}
+} */
 #more1 {display: none;}
 #more2 {display: none;}
 #more3 {display: none;}
@@ -162,4 +162,8 @@ p{
 }
 #navbar.sticky a{
     color: #fff;
+}
+.similar_property h2{
+    /* margin: 0 !important; */
+    font-size: 20px;
 }
