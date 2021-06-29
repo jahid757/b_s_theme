@@ -146,3 +146,20 @@ p{
     color:#fff;
    background: #9b6fc1;
 } 
+.gap{
+    height: 20px;
+    background:#f3f5f8;
+    width: 100%;
+}
+#navbar.sticky {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    z-index: 12;
+    background-color: #7e6990;
+    padding: 10px 0;
+    margin-left: -45px;
+}
+#navbar.sticky a{
+    color: #fff;
+}

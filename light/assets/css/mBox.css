@@ -19,6 +19,16 @@
     width:70%;
     height: 120px;
 }
+#mBox .mBox-navigation{
+    display:block !important;
+}
+#mBox .mBox-current img{
+    max-height: 650px !important;
+}
+#mBox .mBox-navigation .fas{
+    background: #000;
+    border-radius: 50%;
+}
 /* 
 @media (min-width: 576px) {
     #mBox {
