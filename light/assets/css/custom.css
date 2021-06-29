@@ -167,3 +167,8 @@ p{
     /* margin: 0 !important; */
     font-size: 20px;
 }
+@media (max-width:768px){
+    #navbar.sticky{
+        margin-left: -35px;
+    }
+}

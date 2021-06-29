@@ -20,8 +20,8 @@ function myFunction(id) {
 
 window.onscroll = function() {scrollSpy()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+const navbar = document.getElementById("navbar");
+const sticky = navbar.offsetTop;
 
 function scrollSpy() {
   if (window.pageYOffset >= sticky) {
@@ -30,3 +30,24 @@ function scrollSpy() {
     navbar.classList.remove("sticky");
   }
 }
+
+$(function() {
+  const topOffset = 5; //variable for menu height
+
+  //Use smooth scrolling when clicking on navigation
+  $('.navbar-nav-menu a').click(function() {
+  if (location.pathname.replace(/^\//,'') === 
+    this.pathname.replace(/^\//,'') && 
+    location.hostname === this.hostname) {
+    const target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+    $('html,body').animate({
+      scrollTop: target.offset().top-topOffset
+    }, 1500);
+    return false;
+    } //target.length
+  } //click function
+  }); //smooth scrolling
+
+});		
