@@ -211,6 +211,22 @@ p {
 .top_heading a{
   text-decoration: underline;
 }
+.row.border-bottom{
+  border-bottom-style:dashed !important;
+}
+.left_side_text p{
+  color:#999;
+}
+
+.left_side_text p , .right_side p ,.right_side h5{
+  font-size: 15px;
+}
+
+
+
+
+
+
 @media (max-width: 768px) {
   #navbar.sticky {
     margin-left: -35px;
