@@ -176,13 +176,20 @@ p {
   top: 60px;
   width: 100%;
   z-index: 12;
-  background-color: #7e6990;
+  background-color: #f3f5f8;
   padding: 10px 0;
   margin: 0;
   margin-left: -45px;
+  border-bottom: 1px solid  #9b6fc1;
 }
-#navbar.sticky a {
+/* #navbar.sticky a {
   color: #fff;
+} */
+#navbar.sticky .top_heading{
+  padding-left: 20px !important;
+}
+#navbar ul li a{
+  font-weight: bold;
 }
 .right_gap{
     position:relative;
@@ -200,6 +207,9 @@ p {
 .similar_property h2 {
   /* margin: 0 !important; */
   font-size: 20px;
+}
+.top_heading a{
+  text-decoration: underline;
 }
 @media (max-width: 768px) {
   #navbar.sticky {
