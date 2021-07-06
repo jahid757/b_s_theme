@@ -128,6 +128,8 @@ p {
 }
 .hover_img {
   transition: transform 0.3s ease-in-out;
+  cursor:zoom-in;
+  cursor:-moz-zoom-in;
 }
 .hover_img:hover {
   transform: scale(1.1);
