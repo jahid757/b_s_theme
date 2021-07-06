@@ -223,10 +223,10 @@ p {
 .left_side_text p , .right_side p ,.right_side h5{
   font-size: 15px;
 }
-.inquiry_adobe_gap {
-  position: relative;
-  left: -1px;
-  width: 102%;
+.inquiry_adobe_gap{
+  position: relative !important;
+  left: -1px !important;
+  width: 102% !important;
 }
 
 
